@@ -1,0 +1,25 @@
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor-local configuration
+.vscode/
+.idea/
+*~
+*.swp
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Hosting tool state (not needed for this standalone project)
+.openai/
